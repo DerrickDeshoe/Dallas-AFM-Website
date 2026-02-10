@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useRef } from "react";
-import { motion, useInView, Variants } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import Image, { StaticImageData } from "next/image";
 import { useTheme } from "../contexts/ThemeContext";
 import Leader1 from "@/public/Images/Leaders/Leader1.jpg";
